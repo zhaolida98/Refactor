@@ -55,4 +55,21 @@ class Customer {
         return result;
     }
 
+//    public String htmlStatement() {
+//        StringBuilder result = new StringBuilder("<H1>Rentals for <EM>").append(getName());
+//        result.append("</EM></H1><P>\n");
+//        for (Rental each : _rentals) {
+////show figures for each rental
+//            result.append(each.getMovie().getTitle()).append(": ");
+//            result.append(String.valueOf(each.getCharge())).append("<BR>\n");
+//        }
+////add footer lines
+//        result.append("<P>You owe <EM>" + String.valueOf(getTotalCharge()));
+//        result.append("</EM><P>\n");
+//        result.append("On this rental you earned <EM>");
+//        result.append(String.valueOf(getTotalFrequentRenterPoints()));
+//        result.append("</EM> frequent renter points<P>");
+//        return result.toString();
+//    }
+
 }
